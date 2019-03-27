@@ -2,7 +2,7 @@
 # vim:filetype=dosini
 
 [colors]
-#base00 = #2b303b
+base00 = #2b303b
 base01 = #343d46
 base02 = #4f5b66
 base03 = #65737e
@@ -215,7 +215,3 @@ type = internal/xkeyboard
 blacklist-0 = num lock
 blacklist-1 = scroll lock
 
-[module/aur_updates]
-type = custom/script
-exec = ~/bin/aur_updates.sh
-interval = 600
